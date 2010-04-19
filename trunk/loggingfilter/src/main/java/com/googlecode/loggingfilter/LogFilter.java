@@ -67,7 +67,7 @@ public class LogFilter implements Filter {
       String name = (String) en.nextElement();
       String values[] = request.getParameterValues(name);
       int n = values.length;
-      StringBuffer buf = new StringBuffer();
+      StringBuilder buf = new StringBuilder();
       buf.append(name);
       buf.append("=");
       for (int i = 0; i < n; i++) {
