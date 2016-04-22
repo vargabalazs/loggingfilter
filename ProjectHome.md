@@ -1,0 +1,1 @@
+A servlet filter used to log input and output of a web request.
